@@ -4,3 +4,4 @@ For this project, using MongoDB, the database structure includes collections to 
 
 Frontend: React.js is used to create an interactive user interface, supporting real-time chat updates, friend requests, and call notifications.  Material UI for React Components and Tailwind for CSS elements has been used. The UI allows users to seamlessly manage friend lists, initiate voice and video calls, and view chat histories.
 Database: MongoDB stores user account information, friend connections, messages, and call logs, ensuring efficient data management for real-time interactions across the platform.
+Communication: SocketIO used to enable real-time, bi-directional communication between web client and server, to implement the text and video chat system. 
