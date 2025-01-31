@@ -1,0 +1,6 @@
+The primary objective of this project was to create a real-time communication platform using the MERN stack, providing users with a seamless experience for connecting and collaborating. Users can register, manage their friend lists, participate in text chats, initiate voice and video calls, and even share their screens, making it an all-in-one solution for personal and group communication.
+
+For this project, using MongoDB, the database structure includes collections to manage users, friendships, messages, and real-time communication. Each user's data, including friend connections, chat history, and call logs, is stored in separate documents. Messages are organized by conversation and type (e.g., text, media) to facilitate efficient querying and retrieval. The database is optimized with indexing for fast access, ensuring smooth real-time interactions.
+
+Frontend: React.js is used to create an interactive user interface, supporting real-time chat updates, friend requests, and call notifications.  Material UI for React Components and Tailwind for CSS elements has been used. The UI allows users to seamlessly manage friend lists, initiate voice and video calls, and view chat histories.
+Database: MongoDB stores user account information, friend connections, messages, and call logs, ensuring efficient data management for real-time interactions across the platform.
